@@ -1,0 +1,76 @@
+* {
+    font-family: 'Noto Sans Mono', 'Font Awesome 6 Free', 'Font Awesome 6 Brands', monospace;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-left:8px;
+    padding-right:8px;
+}
+
+window#waybar {
+    background-color: rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+
+/*WORKSPACES*/
+
+#workspaces button {
+    color: #f0f0f0;
+    padding: 0;
+}
+
+/*WAYBARMEDIA*/
+
+#custom-waybarmedia {
+    background-color: #6fc28b;
+    color: #000000;
+}
+
+/*CLOCK*/
+
+#clock {
+    background-color: #eed162;
+    color: #000000;
+    font-weight: bold;
+    font-size: 17px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+/*PULSEAUDIO*/
+
+#pulseaudio {
+    background-color: #a998d9;
+    color: #000000;
+}
+
+/*BACKLIGHT*/
+
+#backlight {
+    background-color: #f2a6c1;
+    color: #000000;
+}
+
+/*NETWORK*/
+
+#network {
+    background-color: #7fb3d5;
+    color: #000000;
+}
+#network.disconnected {
+    background-color: #ffffff;
+}
+
+/*BATTERY*/
+
+#battery {
+    background-color: #d1a868;
+    color: #000000;
+}
+
+/*POWER-PROFILES*/
+
+#power-profiles-daemon {
+    padding-right: 15px;
+    background-color: #b0b0b0;
+    color: #000000;
+}
